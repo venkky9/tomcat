@@ -18,9 +18,9 @@ deploy:
 
 service:
   name: http
-  type: LoadBalancer
+  type: NodePort
   externalPort: 80
-  internalPort: 8080
+  internalPort: 8090
 
 hostPort: 8009
 
